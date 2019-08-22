@@ -1,0 +1,306 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Caveat', cursive;
+  font-size: 40px;
+  color: #132743;
+}
+
+h3 {
+  font-family: 'Handlee', cursive;
+  font-size: 30px;
+  color: #543864;
+}
+
+h4 {
+  font-family: serif;
+  font-size: 20px;
+  color: #49beb7;
+}
+
+p {
+  font-size: 20px;
+  color: #407088;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  color: #32dbc6;
+  width: 10%;
+  border-width: 5px;
+}
+
+/******************** class selector ************ */
+/********************** container fluid********** */
+.container-fluid {
+  padding: 0;
+}
+
+/********************* navbar *********************/
+.navbar {
+  background-color: #99b19c;
+  padding: 20px 100px;
+}
+
+/* .navbar-brand {
+  margin: auto;
+  padding-left: 2px;
+  border-radius: 100%;
+  border-style: solid;
+  background-color: #226b80;
+} */
+
+.navbar-brand:hover {
+  background-color: #35b0ab;
+}
+
+.nav-item {
+  padding: 10px 10px;
+}
+
+/* ************top container starts************** */
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 300px;
+}
+
+.heading {
+  margin: 50px auto 0 auto;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 70px;
+  color: #45b29a;
+}
+
+/* ************top container Ends************** */
+/* *************** Middle container starts***** */
+.middle-container {
+  padding-top: 30px;
+  width: 100%;
+}
+
+.profile {
+  width: 50%;
+  margin: auto;
+  line-height: 2;
+  text-align: center;
+}
+
+.photo {
+
+  margin-bottom: 20px;
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+}
+
+.code {
+  border-radius: 100%;
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin-right: 30px;
+}
+
+.read {
+  border-radius: 100%;
+  width: 300px;
+  height: 300px;
+  float: right;
+  margin-left: 30px;
+}
+
+.skills {
+  margin-top: 50px;
+}
+
+.skill-row1 {
+  margin: 50px 321px 100px;
+  width: 50%;
+  line-height: 2;
+  text-align: left;
+}
+
+.skill-row2 {
+  margin: 50px 0 200px 320px;
+  width: 50%;
+  line-height: 2;
+  text-align: right;
+}
+
+.contact-me {
+  padding-top: 50px;
+}
+
+/* *************** Middle container starts***** */
+/*************** bottom container starts ****** */
+.bottom-container {
+  background-color: #66bfbf;
+  margin-top: 60px;
+  padding: 40px 70px 20px 70px;
+}
+
+.footer-link {
+  padding: 5px 5px;
+}
+
+.footer-link:hover {
+  color: #fff;
+}
+
+.footname {
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+/*************** bottom container starts **************** */
+/* *******************Button class starts**************** */
+.butn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  text-shadow: 0 1px 3px #666666;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 21px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+/************************ button class ends******************* */
+/* for ipad */
+@media (max-width:1200px) and (min-width:754px) {
+  #toggle-bar .navbar-brand {
+    margin-left: 0px;
+  }
+
+  #title .top-cloud {
+    position: absolute;
+    top: 100px;
+    right: 120px;
+  }
+
+  .bottom-cloud {
+    position: absolute;
+    left: 120px;
+    bottom: 350px;
+  }
+
+  #info .skill-row1 {
+    margin: 50px 250px 0px;
+    text-align: center;
+  }
+
+  .code {
+    float: none;
+    margin: 0 0 30px;
+  }
+
+  .skill-row2 {
+    margin: 0 0 30px 250px;
+    text-align: center;
+  }
+
+  .read {
+    float: none;
+    margin: 0 0 30px;
+    margin-bottom: 30px;
+    margin-left: 0;
+  }
+}
+
+/* for mobile */
+@media (max-width: 767px) {
+  #full-body {
+    text-align: center;
+  }
+
+  #toggle-bar .navbar-brand {
+    margin-left: -40px;
+  }
+
+  #title .top-cloud {
+    width: 25%;
+    position: absolute;
+    left: 290px;
+    top: 100px;
+  }
+
+  .bottom-cloud {
+    width: 25%;
+    position: absolute;
+    top: 230px;
+    left: 10px;
+  }
+
+  .heading {
+    font-size: 40px;
+    padding-right: 10px;
+  }
+
+  .bottom-mountain {
+    width: 70%;
+  }
+
+  .profile {
+    margin-left: 80px;
+  }
+
+  #myself .photo {
+    width: 250px;
+  }
+
+  #info .skill-row1 {
+    margin: 0 0 0 80px;
+    text-align: center;
+  }
+
+  .code {
+    margin: 30px 0;
+    width: 250px;
+    height: 250px;
+  }
+
+  .skill-row2 {
+    margin: 0 0 20px 130px;
+    text-align: center;
+  }
+
+  .read {
+    margin-bottom: 30px;
+    width: 250px;
+    height: 250px;
+  }
+}
